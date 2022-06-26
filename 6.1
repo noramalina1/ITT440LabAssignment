@@ -37,10 +37,4 @@ def main():
         count = pool.map(pi_part, part_count)
         pi_est = sum(count) / (n * 1.0) * 4
 
-        end = timer()
-
-        print(f'elapsed time: {end - start}')
-        print(f'π estimate: {pi_est}')
-
-if __name__=='__main__':
-    main()
+       
